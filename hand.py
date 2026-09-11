@@ -12,7 +12,7 @@ while True:
         rw.fill_walk()
 
         #Plot the points in the walks.
-        fig, ax = plt.subplots(figsize=(15, 9))
+        fig, ax = plt.subplots(figsize=(16, 9))
         point_number = range(rw.num_points)
         ax.scatter(rw.x_values, rw.y_values, c=point_number, cmap=plt.cm.Blues, edgecolors='none', s=15)
 
